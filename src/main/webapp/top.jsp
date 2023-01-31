@@ -97,7 +97,7 @@
 			font-size:13px;
 			width:1200px;
 			margin:auto;
-			text-align:right;
+			text-align:center;
 		}
 	</style>
 	<script>
@@ -149,7 +149,7 @@
 		<span id="mmain" onmouseover="my_view()" onmouseout="my_hide()"> Mypage &nbsp;|&nbsp;
 			<ul id="msub">
 				<li> <a href="../member/member_view.jsp"> 회원 정보 </a> </li>
-				<li> <a href=""> 예약 현황 </a> </li>
+				<li> <a href="../reserve/reserve_all.jsp"> 예약 현황 </a> </li>
 				<li> <a href=""> 나의 질문 </a> </li>
 			</ul>
 		</span>
@@ -187,7 +187,7 @@
 			<li class="main" onmouseover="view_menu(3)" onmouseout="hide_menu(3)"> 예약하기 
 				<ul class="sub">
 					<li> 예약 안내 </li>
-					<li> <a href=""> 실시간예약 </a>	</li>
+					<li> <a href="../reserve/reserve.jsp"> 실시간예약 </a>	</li>
 				</ul>
 			</li>
 			<li class="main" onmouseover="view_menu(4)" onmouseout="hide_menu(4)"> 커뮤니티 
