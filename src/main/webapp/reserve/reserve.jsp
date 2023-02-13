@@ -85,7 +85,7 @@
 				else 
 					ss="color:black;"; 
 %>
-			<td height="90" style="font-size:13px;" align="right">
+			<td height="90" style="font-size:13px;" align="right" valign="top">
 				<span style="font-size:15px;font-weight:900;<%=ss%>"> <%=day%> </span>
 				<p>
 <%

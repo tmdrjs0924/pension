@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/board"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/board2"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/dto_board"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/jartest20221115"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/java_sg"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/onyx"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pension1"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/pension2"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/servlet_board_20230109"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/sungjuk"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/test"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/test_board"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/test_board2"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/web_sg"/>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

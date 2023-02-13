@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-	
+	<p>
 	<div id="seventh">
 		예약문의 010-5414-9472 <br>
 		이메일 tmdrjs@naver.com <br>
