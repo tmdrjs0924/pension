@@ -78,10 +78,10 @@
         </td>
       </tr>
       <tr>
-        <td> 객실명 </td>
-        <td> <%=rdto.getName()%> </td>
-        <td> 숙박료(1박) </td>
-        <td> <%=MyJob.comma(rdto.getPrice())%>원 </td>
+        <td width="100"> 객실명 </td>
+        <td width="400"> <%=rdto.getName()%> </td>
+        <td width="100"> 숙박료(1박) </td>
+        <td width="400"> <%=MyJob.comma(rdto.getPrice())%>원 </td>
       </tr>
       <tr>
         <td> 기준인원 </td>

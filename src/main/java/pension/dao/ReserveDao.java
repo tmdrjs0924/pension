@@ -57,7 +57,7 @@ public class ReserveDao {
 		rdto.setMax(rs.getInt("max"));
 		rdto.setMin(rs.getInt("min"));
 		rdto.setImg(rs.getString("img"));
-		rdto.setContent(rs.getString("content"));
+		rdto.setContent(rs.getString("content").replace("\r\n", "<br>"));
 		
 		request.setAttribute("rdto", rdto);
 		
